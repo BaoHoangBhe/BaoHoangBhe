@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+  /*transition: all 0.2s ease-in-out;*/
+}
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+}
+
+header {
+	overflow: hidden;
+  width: 100%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /*padding-left: 30px;*/
+  display: block;
+  border-bottom: 1px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header-logo {
+	float: left;
+  width: 30%;
+  margin: auto;
+  /*padding-left: 40px;*/
+  padding-left: 5vw;
+}
+
+.header-content {
+  float: left;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  /*height: 100%;*/
+    /*background-color: #333;*/
+}
+
+.header-content-list {
+  width: 100%;
+
+  float: right;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: auto;
+  /*margin-right: 10px;
+  padding-right: 0px;*/
+  padding-left: 0px;
+}
+
+/*li:nth-last-child(1) {
+	margin-right: 0px;
+}*/
+
+.header-content-list-item {
+  /*float: left;
+  margin-right: auto;*/
+
+  margin: auto;
+  text-align: center;
+  list-style: none;
+}
+
+.header-content-list-item a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  margin: auto;
+  text-align: left;
+  padding-top: auto;
+  padding-bottom: auto;
+  color: black;
+  /*height: 36.8px;*/
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.header-content-list-item:nth-last-child(1) {
+	margin-right: 0;
+}
+
+.header-content-list-item a:hover {
+  color: red;
+}
+
+footer {
+	overflow: hidden;
+  width: 100%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /*padding-left: 30px;*/
+  display: block;
+  border-top: 1px solid black;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+footer .header-content {
+  float: left;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /*height: 100%;*/
+    /*background-color: #333;*/
+}
+
+footer .header-content-list-item:nth-last-child(1) {
+	margin-right: auto;
+}
+
+
+@media only screen and (max-width: 960px) {
+
+.header-logo {
+	
+  width: 30%;
+  margin: auto;
+
+  padding: 2.5vw;
+  padding-left: 10vw;
+
+  height: 100%;
+  margin: auto;
+  /*padding: auto;*/
+}
+
+.header-content {
+  
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  /*height: 100%;*/
+    /*background-color: #333;*/
+}
+
+.header-content-list {
+  width: 100%;
+
+  float: right;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: auto;
+  /*margin-right: 10px;
+  padding-right: 0px;*/
+  padding-left: 0px;
+}
+
+.header-content-list-item:nth-last-child(1) {
+	margin-right: auto;
+}
+
+}
+
+
+
+
+
+main {
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+	padding-left: 10px;
+  padding-right: 10px;
+}
+
+.main-category {
+	/*display: flex;
+	flex-direction: row;*/
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-bottom: 2px;
+	background-color: #F7F7F7;
+}
+
+.main-category-name {
+	/*font-family: 'Open Sans';*/
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 38px;
+	text-align: center;
+	margin-bottom: 44px;
+
+	padding-top: 10px;
+}
+
+.main-category-content {
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+}
+
+.main-category-content-item {
+	width: auto;
+	margin-right: auto;
+	/*border-radius: 10px;*/
+  /*float: right;
+  display: flex;
+  flex-direction: row;*/
+}
+
+.main-category-content-item:nth-last-child(1) {
+	margin-right: 2px;
+}
+
+.main-category-content-item:hover {
+	/*background-color: #F7886E;*/
+	/*background-color: #8d948e;*/
+	/*color: white;*/
+	border: 1px solid #888888;
+  	/*padding: 10px;*/
+  	box-shadow: 1px 2px #888888;
+}
+
+.main-category-content-item a:hover {
+	color: black;
+}
+
+.main-category-content-item-img {
+
+}
+
+.main-category-content-item-img img {
+	/*width: 300px; 
+	height: 400px;*/
+
+	width: 30vw;
+	height: 40vw;
+}
+
+.main-category-content-item-name {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+}
